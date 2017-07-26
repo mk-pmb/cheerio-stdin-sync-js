@@ -1,0 +1,29 @@
+{ "name": "cheerio-stdin-sync",
+  "version": "1.0.0",
+  "description": "Sync-read HTML from stdin and load it into cheerio.",
+  "keywords": [ "cheerio", "html", "stdin", "sync" ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/cheerio-stdin-sync-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/cheerio-stdin-sync-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/cheerio-stdin-sync-js/issues"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "cs.js",
+  "scripts": { "test": "nodejs test/all.js" },
+  "directories": { "test": "test" },
+
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "read-all-stdin-sync": "^1.0.5"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
